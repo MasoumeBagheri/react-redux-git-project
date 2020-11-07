@@ -1,5 +1,5 @@
 export async function getRepos() {
-  let token = "00c76407afdf7144c9175ece8dc494746bbc3046";
+  let token = "***************************";
 
   const reposUrlData = await fetch("https://api.github.com/user", {
     method: "GET",
